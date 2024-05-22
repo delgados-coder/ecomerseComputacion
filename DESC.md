@@ -2,29 +2,6 @@
 
 Este documento describe la estructura y las funciones de los archivos y carpetas CSS en el proyecto.
 
-## Estructura del Proyecto
-
-```plaintext
-css/
-├── base/
-│   ├── _animations.css
-│   ├── _colors.css
-│   ├── _default.css
-│   ├── _fonts.css
-│   └── _import.css
-├── components/
-│   ├── _appliedColors.css
-│   ├── _appliedFonts.css
-│   ├── _buttons.css
-│   ├── _effects.css
-│   └── _fade.css
-├── layout/
-│   ├── _boxes.css
-│   ├── _flex.css
-│   ├── _grid.css
-│   └── _sections.css
-└── main.css
-
 
 
 ## Descripción de Archivos
@@ -59,3 +36,28 @@ css/
 ## Uso del Guion Bajo (_)
 
 El guion bajo (`_`) se utiliza al inicio de los nombres de archivos CSS para indicar que estos son archivos parciales o módulos que no deberían ser cargados directamente en el HTML. En su lugar, son importados en otros archivos CSS, como se hace en `_import.css`. Esto ayuda a mantener una estructura de archivos organizada y modular, permitiendo un desarrollo y mantenimiento más eficientes.
+
+
+## Estructura del Proyecto
+
+```plaintext
+css/
+├── base/
+│   ├── _animations.css
+│   ├── _colors.css
+│   ├── _default.css
+│   ├── _fonts.css
+│   └── _import.css
+├── components/
+│   ├── _appliedColors.css
+│   ├── _appliedFonts.css
+│   ├── _buttons.css
+│   ├── _effects.css
+│   └── _fade.css
+├── layout/
+│   ├── _boxes.css
+│   ├── _flex.css
+│   ├── _grid.css
+│   └── _sections.css
+└── main.css
+
