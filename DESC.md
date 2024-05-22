@@ -4,25 +4,27 @@ Este documento describe la estructura y las funciones de los archivos y carpetas
 
 ## Estructura del Proyecto
 
-css
-┣ base
-┃ ┣ _animations.css
-┃ ┣ _colors.css
-┃ ┣ _default.css
-┃ ┣ _fonts.css
-┃ ┗ _import.css
-┣ components
-┃ ┣ _appliedColors.css
-┃ ┣ _appliedFonts.css
-┃ ┣ _buttons.css
-┃ ┣ _effects.css
-┃ ┗ _fade.css
-┣ layout
-┃ ┣ _boxes.css
-┃ ┣ _flex.css
-┃ ┣ _grid.css
-┃ ┗ _sections.css
-┗ main.css
+```plaintext
+css/
+├── base/
+│   ├── _animations.css
+│   ├── _colors.css
+│   ├── _default.css
+│   ├── _fonts.css
+│   └── _import.css
+├── components/
+│   ├── _appliedColors.css
+│   ├── _appliedFonts.css
+│   ├── _buttons.css
+│   ├── _effects.css
+│   └── _fade.css
+├── layout/
+│   ├── _boxes.css
+│   ├── _flex.css
+│   ├── _grid.css
+│   └── _sections.css
+└── main.css
+
 
 
 ## Descripción de Archivos
